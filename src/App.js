@@ -2,14 +2,20 @@ function App() {
   return (
     <>
       <div className='p-4' style={{ background: 'rgb(1, 20, 59)' }}>
-        <div className='flex items-center justify-center'>
-          <img
-            src='https://ideamarket.io/logo.png'
-            alt='Ideamarket'
-            width={30}
-          />
-          <h1 className='text-3xl text-white'>Ideamarket</h1>
-        </div>
+        <a
+          href='https://ideamarket.io'
+          target='_blank'
+          rel='noopener noreferrer nofollow'
+        >
+          <div className='flex items-center justify-center space-x-1'>
+            <img
+              src='https://ideamarket.io/logo.png'
+              alt='Ideamarket'
+              width={32}
+            />
+            <h1 className='text-3xl text-white'>Ideamarket</h1>
+          </div>
+        </a>
       </div>
       <div
         class='flex flex-col justify-around items-center h-auto text-white overflow-hidden pt-10 pb-20 space-y-8'

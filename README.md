@@ -1,6 +1,6 @@
 # Ideamarket Landing Page
 
-Check out the site at [ideamarket-landing-page.netlify.app](https://ideamarket-landing-page.netlify.app) and video demo at [loom.com/share/e385e69281e84dd097f717f70bd242db](https://www.loom.com/share/e385e69281e84dd097f717f70bd242db)
+Check out the site at [ideamarket-landing-page.netlify.app](https://ideamarket-landing-page.netlify.app) and video demo at [loom.com/share/226aa61633604abe9dbb32dbcadeec95](https://www.loom.com/share/226aa61633604abe9dbb32dbcadeec95)
 
 ---
 
