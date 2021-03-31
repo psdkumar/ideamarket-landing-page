@@ -140,42 +140,54 @@ function App() {
         </p>
         <img src='/images/image-4.png' alt='' class='h-96' />
       </div>
-      <div
-        class='flex flex-wrap justify-center items-center space-x-4 py-10 text-white'
-        style={{ background: 'rgb(1, 20, 59)' }}
-      >
-        <a
-          href='https://docs.ideamarket.io/'
-          class='hover:underline'
-          target='_blank'
-          rel='noopener noreferrer nofollow'
-        >
-          Documentation
-        </a>
-        <a
-          href='https://twitter.com/ideamarkets_'
-          class='hover:underline'
-          target='_blank'
-          rel='noopener noreferrer nofollow'
-        >
-          Twitter
-        </a>
-        <a
-          href='https://github.com/ideamarket'
-          class='hover:underline'
-          target='_blank'
-          rel='noopener noreferrer nofollow'
-        >
-          GitHub
-        </a>
-        <a
-          href='https://discord.com/invite/zaXZXGE4Ke'
-          class='hover:underline'
-          target='_blank'
-          rel='noopener noreferrer nofollow'
-        >
-          Community
-        </a>
+      <div class='' style={{ background: 'rgb(1, 20, 59)' }}>
+        <div className='flex flex-col items-center space-y-2 text-white pt-10 pb-0'>
+          <h3 className='text-2xl'>Subscribe to our newsletter</h3>
+          <div className='flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4'>
+            <input
+              id='emailInput'
+              type='email'
+              class='rounded'
+              placeholder='Enter your email here!'
+              className='py-3 text-black w-80'
+            />
+            <button class='bg-indigo-600 rounded px-10 py-3'>Subscribe</button>
+          </div>
+        </div>
+        <div className='flex flex-wrap justify-center items-center space-x-4 py-10 text-white'>
+          <a
+            href='https://docs.ideamarket.io/'
+            class='hover:underline'
+            target='_blank'
+            rel='noopener noreferrer nofollow'
+          >
+            Documentation
+          </a>
+          <a
+            href='https://twitter.com/ideamarkets_'
+            class='hover:underline'
+            target='_blank'
+            rel='noopener noreferrer nofollow'
+          >
+            Twitter
+          </a>
+          <a
+            href='https://github.com/ideamarket'
+            class='hover:underline'
+            target='_blank'
+            rel='noopener noreferrer nofollow'
+          >
+            GitHub
+          </a>
+          <a
+            href='https://discord.com/invite/zaXZXGE4Ke'
+            class='hover:underline'
+            target='_blank'
+            rel='noopener noreferrer nofollow'
+          >
+            Community
+          </a>
+        </div>
       </div>
     </>
   )
