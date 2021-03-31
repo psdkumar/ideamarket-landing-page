@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Ideamarket Landing Page
+
+Check out the site at [ideamarket-landing-page.netlify.app](https://ideamarket-landing-page.netlify.app) and video demo at [loom.com/share/e385e69281e84dd097f717f70bd242db](https://www.loom.com/share/e385e69281e84dd097f717f70bd242db)
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,11 +17,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 

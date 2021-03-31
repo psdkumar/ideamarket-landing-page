@@ -1,25 +1,184 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <>
+      <div className='p-4' style={{ background: 'rgb(1, 20, 59)' }}>
+        <div className='flex items-center justify-center'>
+          <img
+            src='https://ideamarket.io/logo.png'
+            alt='Ideamarket'
+            width={30}
+          />
+          <h1 className='text-3xl text-white'>Ideamarket</h1>
+        </div>
+      </div>
+      <div
+        class='flex flex-col justify-around items-center h-auto text-white overflow-hidden pt-10 pb-20 space-y-8'
+        style={{ background: 'rgb(1, 20, 59)' }}
+      >
+        <div class='flex space-x-4'>
+          <img
+            src='https://ideamarket.io/ethereum.png'
+            alt='ethereum'
+            class='h-8'
+          />
+          <img src='https://ideamarket.io/qs.png' alt='qs' class='h-8' />
+        </div>
+        <div class='text-center space-y-4'>
+          <h1 class='text-5xl'>
+            Credibility without
+            <span class='text-indigo-400'> corporations</span>
+          </h1>
+          <p class='text-lg'>
+            Vote with your dollars, and give underrated voices the visibility
+            they deserve.
+          </p>
+        </div>
+        <div class='flex space-x-4'>
+          <a
+            href='https://www.nasdaq.com/articles/ideamarket-is-a-literal-marketplace-for-ideas-and-online-reputation-2021-02-19'
+            target='_blank'
+            rel='noopener noreferrer nofollow'
+          >
+            <img
+              src='https://ideamarket.io/nasdaq.png'
+              alt='nasdaq'
+              class='h-6'
+            />
+          </a>
+
+          <a
+            href='https://www.vice.com/en/article/pkd8nb/people-have-spent-over-dollar1-million-on-a-literal-marketplace-of-ideas'
+            target='_blank'
+            rel='noopener noreferrer nofollow'
+          >
+            <img src='https://ideamarket.io/vice.png' alt='vice' class='h-6' />
+          </a>
+
+          <a
+            href='https://www.coindesk.com/ideamarket-online-ideas-online-reputation'
+            target='_blank'
+            rel='noopener noreferrer nofollow'
+          >
+            <img
+              src='https://ideamarket.io/coindesk.png'
+              alt='coindesk'
+              class='h-6'
+            />
+          </a>
+        </div>
+        <p class='text-xl'>
+          <span class='text-indigo-500'>$1,018,578</span> in trust signaled
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          class='bg-indigo-600 rounded px-10 py-4'
+          href='https://ideamarket.io'
+          target='_blank'
+          rel='noopener noreferrer nofollow'
         >
-          Learn React
+          Visit Ideamarket
         </a>
-      </header>
-    </div>
-  );
+      </div>
+      <div class='flex flex-col justify-center items-center space-y-8 w-full px-4 sm:px-0 sm:w-3/4 mx-auto py-10'>
+        <h2 class='text-4xl'>Overview</h2>
+        <div class='video-container'>
+          <iframe
+            src='https://www.youtube-nocookie.com/embed/vmzUtpaeQ-I'
+            frameborder='0'
+            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+            title='Ideamarket Intro'
+          ></iframe>
+        </div>
+        <p>
+          Ideamarket aims to replace corporate media as the arbiter of public
+          credibility.
+        </p>
+        <p>
+          To help achieve this, Ideamarket offers creators a new income stream
+          based on trust, without dependence on ads or paywalls.
+        </p>
+        <h3 class='text-3xl'>How it works</h3>
+        <p>
+          Buy account tokens to vote on the "attentionworthiness" of that
+          account, and sell to revoke your vote.
+        </p>
+        <p>
+          The first 1,000 tokens for each listing cost $0.10 each. Token price
+          automatically increases by $0.01 for each 100 tokens bought afterward,
+          managed by a bonding curve algorithm.
+        </p>
+        <p>
+          You can list anyone's account (even @elonmusk), as long as it's not
+          already listed. If you add an account owned by someone else, interest
+          will accrue to their wallet after a purchase, and they can claim it
+          anytime.
+        </p>
+        <img src='/images/image-1.png' alt='' class='h-96' />
+        <p>
+          Money spent on tokens is held in
+          <a href='https://compound.finance/'>compound.finance</a>, a
+          decentralized lending protocol. Compound lends these deposits to
+          borrowers, who pay interest (usually 1-10% annually).
+        </p>
+        <img src='/images/image-2.png' alt='' class='h-96' />
+        <p>
+          All interest generated by token deposits is paid to the owner of the
+          associated social media account.
+        </p>
+        <img src='/images/image-3.png' alt='' class='h-96' />
+        <h3 class='text-3xl'>Philosophy</h3>
+        <p>Ideamarket makes credibility expensive to fake.</p>
+        <p>
+          Trusted voices crowdsource a high rank "for free," as their audience
+          buys upvotes out of self-interest and genuine belief. Private
+          interests must pay out-of-pocket for a high rank, while competing
+          against the buying power of entire populations.
+        </p>
+        <p>
+          Over time, market cycles shake out both the deceivers, and the
+          deceived.
+        </p>
+        <img src='/images/image-4.png' alt='' class='h-96' />
+      </div>
+      <div
+        class='flex flex-wrap justify-center items-center space-x-4 py-10 text-white'
+        style={{ background: 'rgb(1, 20, 59)' }}
+      >
+        <a
+          href='https://docs.ideamarket.io/'
+          class='hover:underline'
+          target='_blank'
+          rel='noopener noreferrer nofollow'
+        >
+          Documentation
+        </a>
+        <a
+          href='https://twitter.com/ideamarkets_'
+          class='hover:underline'
+          target='_blank'
+          rel='noopener noreferrer nofollow'
+        >
+          Twitter
+        </a>
+        <a
+          href='https://github.com/ideamarket'
+          class='hover:underline'
+          target='_blank'
+          rel='noopener noreferrer nofollow'
+        >
+          GitHub
+        </a>
+        <a
+          href='https://discord.com/invite/zaXZXGE4Ke'
+          class='hover:underline'
+          target='_blank'
+          rel='noopener noreferrer nofollow'
+        >
+          Community
+        </a>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
